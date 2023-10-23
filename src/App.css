@@ -54,8 +54,9 @@
 .hover_border:hover::before {
   border-right: 3.5px solid #1eadb6;
   border-top: 3.5px solid #1eadb6;
-  right: -5.2px;
-  top: -5.2px;
+  right: -5px;
+  top: -5px;
+  transform: rotate(70%) !important;
 }
 
 .hover_border::after {
@@ -73,7 +74,7 @@
   left: -5.2px;
   bottom: -5.2px;
 }
-*/ .svg_hover,
+ .svg_hover,
 .svg_hover1 {
   position: relative;
   z-index: 4;
@@ -202,10 +203,15 @@ hr {
   color: white !important;
 }
 .learnbtn:hover {
-  border: 2px solid #1eadb6;
-  color: black;
-  background-color: #1eadb6;
+  box-shadow: 0px 0px 1em 0px #1eadb6 !important;
 }
+.img{
+  transition: 600ms all linear;
+}
+.img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
 .robot {
   text-align: -webkit-auto;
   display: flex;

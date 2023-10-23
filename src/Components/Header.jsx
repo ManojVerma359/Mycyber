@@ -96,7 +96,7 @@ const Header = () => {
                 <p className="fs-28 fw-400 ff-adio text-white">
                   Web3 Gaming Reimagined
                 </p>
-                <div className="d-flex gap-4 pt-3">
+                <div className="d-flex gap-4 pt-5">
                   <button className="fs-16 fw-400 ff-adio  getbtn">
                     Get Started
                   </button>
