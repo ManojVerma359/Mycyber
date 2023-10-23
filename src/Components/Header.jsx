@@ -17,7 +17,7 @@ const Header = () => {
               <img src={navlogo} alt="navlogo" className="" />
               <ul
                 id="navbar"
-                className="d-flex gap-4 mb-0 flex-column list-unstyled flex-lg-row justify-content-center align-items-center mobile_view z_index_3"
+                className="d-flex gap-4 mb-0 flex-column list-unstyled flex-lg-row justify-content-center align-items-center phone_screen z_index_3"
               >
                 <li className="link hover_border position-relative">
                   <Link

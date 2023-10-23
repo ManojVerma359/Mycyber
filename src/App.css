@@ -433,7 +433,7 @@ hr {
     overflow: hidden;
   }
 
-  .mobile_view {
+  .phone_screen {
     position: fixed;
     left: -100%;
     top: 0;
