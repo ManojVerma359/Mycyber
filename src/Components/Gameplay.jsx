@@ -10,7 +10,7 @@ const Gameplay = () => {
   return (
     <>
     <div className="overflow-hidden">
-      <Container className="my_container">
+      <Container className="mt-5 mb-3">
         <div className="flex-column text-center pt-5">
           <h2 className="fs-64 fw-400 ff-adio text-black position-relative game_line">
             CyberFPS{" "}

@@ -10,8 +10,8 @@ import { Discoard } from "./Iconimage";
 const Solana = () => {
   return (
     <>
-      <div className="bg_imgsalona pt-4 pb-4">
-        <Container className="my_container pt-5 pb-5">
+      <div className="bg_imgsalona">
+        <Container className="pt-120 pb-120">
           <div className="d-flex flex-wrap align-items-center justify-content-center gap-5 pt-5 pb-5">
             <img className="width_100" src={footerimg2} alt="#id" />
             <img className="width_100" src={footerimg1} alt="#id" />

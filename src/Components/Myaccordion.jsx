@@ -9,7 +9,7 @@ function BasicExample() {
     <>
       <div>
         <div className="bg-black pb-5 pt-4">
-          <Container className="pb-lg-5 pt-xl-4 my_container ">
+          <Container className="pb-lg-5 pt-xl-4">
             <h3 className="fs-64 fw-400 ff-adio text-white text-center pt-4  mt-2 position-relative ">
               Faq
             </h3>

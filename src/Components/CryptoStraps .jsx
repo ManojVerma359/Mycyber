@@ -6,13 +6,13 @@ const CryptoStraps = () => {
   return (
     <>
       <div className="bg-black">
-        <Container className="my_container">
-          <div className="pt-4 pb-4">
-            <Row className="pt-5 pb-5 align-items-center justify-content-center">
-              <Col lg={4} className="pe-lg-5 ">
+        <Container>
+          <div className="pt-5 pb-5">
+            <Row className="pt-5 pb-5 align-items-center justify-content-between">
+              <Col lg={5} className="pe-lg-5 ">
                 <img className="w-100" src={Csimg} alt="#id" />
               </Col>
-              <Col lg={6} className="ps-lg-5  pt-lg-o pt-5">
+              <Col lg={6} className="ps-lg-5  pt-lg-0 pt-5 justify-content-end d-flex flex-column">
                 <h2 className="position-relative">
                   <span className="fs-64 fw-400 ff-adio text-white cry_line">
                     CryptoStraps

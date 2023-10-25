@@ -10,9 +10,9 @@ import { Discoard } from "./Iconimage";
 const Header = () => {
   return (
     <>
-      <div className="bg_img min-vh-100 d-flex flex-column">
+      <div className="bg_img  ">
         <nav>
-          <Container className="my_container">
+          <Container>
             <div className="d-flex align-items-center justify-content-between">
               <img src={navlogo} alt="navlogo" className="" />
               <ul
@@ -32,7 +32,7 @@ const Header = () => {
                   <Link
                     to="/Gameplay"
                     onClick={opennav}
-                    className="text-white fs-16 fw-400 ff-adio"
+                    className="text-white fs-16 fw-400 ff-adio nav-link"
                   >
                     CryptoStraps
                   </Link>
@@ -41,7 +41,7 @@ const Header = () => {
                   <Link
                     to="/CyberFPS"
                     onClick={opennav}
-                    className="text-white fs-16 fw-400 ff-adio"
+                    className="text-white fs-16 fw-400 ff-adio nav-link"
                   >
                     Team
                   </Link>
@@ -50,7 +50,7 @@ const Header = () => {
                   <Link
                     to="/Myaccordion"
                     onClick={opennav}
-                    className="text-white fs-16 fw-400 ff-adio"
+                    className="text-white fs-16 fw-400 ff-adio nav-link"
                   >
                     Faq
                   </Link>
@@ -59,7 +59,7 @@ const Header = () => {
                   <Link
                     to="/Solana"
                     onClick={opennav}
-                    className="text-white fs-16 fw-400 ff-adio"
+                    className="text-white fs-16 fw-400 ff-adio nav-link"
                   >
                     Light Paper
                   </Link>
@@ -88,16 +88,16 @@ const Header = () => {
             </div>
           </Container>
         </nav>
-        <Container className="my_container d-flex flex-grow-1">
+        <Container className="d-flex flex-grow-1">
           <div className="w-100">
             <Row className="h100">
-              <Col className="d-flex flex-column justify-content-center align-items-center" lg={6}>
+              <Col className="d-flex flex-column justify-content-center align-center" lg={6}>
                 <img className="menulogo" src={menu} alt="#id" />
                 <p className="fs-28 fw-400 ff-adio text-white">
                   Web3 Gaming Reimagined
                 </p>
                 <div className="d-flex gap-4 pt-5">
-                  <button className="fs-16 fw-400 ff-adio  getbtn">
+                  <button className="fs-16 fw-400 ff-adio  getbtn btn-hover">
                     Get Started
                   </button>
                   <button className="fs-16 fw-400 ff-adio  learnbtn">
